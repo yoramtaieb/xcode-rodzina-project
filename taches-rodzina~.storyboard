@@ -7,6 +7,38 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Item-->
+        <scene sceneID="whD-nV-Dhh">
+            <objects>
+                <viewController id="3DR-yb-oSy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DBp-gs-0v5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="L45-Yt-s5n"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="QPx-wV-Xyq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VyC-PO-Q4e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1035" y="-523"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="rodzina_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="6gA-z0-weU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="133.92857142857142"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="Btj-qw-pen">
             <objects>
@@ -32,8 +64,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="fbG-eK-DSd" kind="relationship" relationship="viewControllers" id="1BO-4t-0rb"/>
-                        <segue destination="bD3-B7-U3G" kind="relationship" relationship="viewControllers" id="1eS-j7-BF1"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="1BO-4t-0rb"/>
+                        <segue destination="3DR-yb-oSy" kind="relationship" relationship="viewControllers" id="1eS-j7-BF1"/>
                         <segue destination="Oao-kC-BMi" kind="relationship" relationship="viewControllers" id="a8G-2L-dxD"/>
                     </connections>
                 </tabBarController>
@@ -50,26 +82,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9x3-B7-54d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="122" y="-540"/>
-        </scene>
-        <!--taches-rodzina-->
-        <scene sceneID="FTd-a6-0R9">
-            <objects>
-                <viewControllerPlaceholder storyboardName="taches-rodzina" id="bD3-B7-U3G" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="aTb-oB-vtC"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="U21-Bg-Epw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1035" y="-523"/>
-        </scene>
-        <!--cadeaux-rodzina-->
-        <scene sceneID="oQt-QU-qIM">
-            <objects>
-                <viewControllerPlaceholder storyboardName="cadeaux-rodzina" id="fbG-eK-DSd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="iPH-Wv-VYU"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aVZ-N1-X2r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="133.92857142857142"/>
         </scene>
     </scenes>
 </document>
