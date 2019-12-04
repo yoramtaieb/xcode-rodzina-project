@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56BA0B8C2397B60800E87E15 /* creation-tache.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BA0B8B2397B60800E87E15 /* creation-tache.storyboard */; };
+		56BA0B8F2397B65F00E87E15 /* ajouter-cadeaux.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BA0B8D2397B65F00E87E15 /* ajouter-cadeaux.storyboard */; };
 		56CC5CB02396B8A300CF0A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC5CAF2396B8A300CF0A21 /* AppDelegate.swift */; };
 		56CC5CB22396B8A300CF0A21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC5CB12396B8A300CF0A21 /* SceneDelegate.swift */; };
 		56CC5CB42396B8A300CF0A21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC5CB32396B8A300CF0A21 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56BA0B8B2397B60800E87E15 /* creation-tache.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "creation-tache.storyboard"; sourceTree = "<group>"; };
+		56BA0B8E2397B65F00E87E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "rodzina-app/rodzina-app/Base.lproj/ajouter-cadeaux.storyboard"; sourceTree = "<group>"; };
 		56CC5CAC2396B8A300CF0A21 /* rodzina-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rodzina-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CC5CAF2396B8A300CF0A21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56CC5CB12396B8A300CF0A21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +66,9 @@
 		56CC5CAE2396B8A300CF0A21 /* rodzina-app */ = {
 			isa = PBXGroup;
 			children = (
+				56BA0B8D2397B65F00E87E15 /* ajouter-cadeaux.storyboard */,
 				56CC5CC62396BDC900CF0A21 /* taches-rodzina.storyboard */,
+				56BA0B8B2397B60800E87E15 /* creation-tache.storyboard */,
 				56CC5CC82396BDE700CF0A21 /* cadeaux-rodzina.storyboard */,
 				56CC5CC32396BDA000CF0A21 /* profil-rodzina.storyboard */,
 				56CC5CAF2396B8A300CF0A21 /* AppDelegate.swift */,
@@ -137,9 +143,11 @@
 				56CC5CC72396BDC900CF0A21 /* taches-rodzina.storyboard in Resources */,
 				56CC5CC52396BDA000CF0A21 /* profil-rodzina.storyboard in Resources */,
 				56CC5CCA2396BDE700CF0A21 /* cadeaux-rodzina.storyboard in Resources */,
+				56BA0B8F2397B65F00E87E15 /* ajouter-cadeaux.storyboard in Resources */,
 				56CC5CBC2396B8A400CF0A21 /* LaunchScreen.storyboard in Resources */,
 				56CC5CB92396B8A400CF0A21 /* Assets.xcassets in Resources */,
 				56CC5CB72396B8A300CF0A21 /* Main.storyboard in Resources */,
+				56BA0B8C2397B60800E87E15 /* creation-tache.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +167,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		56BA0B8D2397B65F00E87E15 /* ajouter-cadeaux.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BA0B8E2397B65F00E87E15 /* Base */,
+			);
+			name = "ajouter-cadeaux.storyboard";
+			sourceTree = "<group>";
+		};
 		56CC5CB52396B8A300CF0A21 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
