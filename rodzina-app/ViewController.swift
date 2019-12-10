@@ -47,6 +47,9 @@ class ViewController: UIViewController {
         if let textPerson = nomDeLaTache.text{
             tache1.nomDuChallenger = textPerson
         }
+        if let textDescription = descriptionTache.text {
+            tache1.descriptionTache = textDescription
+        }
     }
 }
 
