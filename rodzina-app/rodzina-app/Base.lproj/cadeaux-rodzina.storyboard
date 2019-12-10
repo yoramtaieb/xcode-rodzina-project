@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="32" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Title" id="Hf3-Pb-KeJ">
+                                    <navigationItem title="CADEAUX" id="Hf3-Pb-KeJ">
                                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="yQF-Bs-Rtb">
                                             <connections>
                                                 <segue destination="KOD-pj-MqF" kind="presentation" id="fLU-Co-b9a"/>
